@@ -58,6 +58,7 @@ def main():
             # now write to output
             sys.stdout.write(line + LINEBREAK)
 
+<<<<<<< HEAD
 #tokenize a line
 def tokenize(line):
     # get stopwords
@@ -77,6 +78,8 @@ def tokenize(line):
 
     return line
 
+=======
+>>>>>>> 4f183ad6c06ec2d7ce3f1114f5bf2a7e4d3e57c8
 
 # command-line argument parser
 def get_parser():
