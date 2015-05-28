@@ -40,12 +40,12 @@ def overlap(D, T):
 def classify(test, definitions):
     best_sim=0
     cl=""
-    print(test)
+
     for label, set in definitions:
 
         sim=overlap(set, test)
 
-        print label, sim
+        
         #update best
         if sim>best_sim:
             best_sim=sim
