@@ -13,3 +13,17 @@ Alina Karakanta, 2556612, alinak@coli.uni-saarland.de
 Kata Naszadi, 2556762, b.naszadi@gmail.com
 
 ## Scripts
+tokenizer.py
+
+Tokenizes the input file
+Usage: ./tokenizer.py infile > tokenized_file
+
+Input file: one sentence per line
+Output file: like input, but tokenized and stemmed with stopwords removed
+
+List of stopwords from: https://code.google.com/p/stop-words/
+
+ex03.py
+
+Word Sense Disambiguation implementation
+Computes Dice coefficient, classifies documents according to the score and prints the number of misclassifications.
